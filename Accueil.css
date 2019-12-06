@@ -1,0 +1,12 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+p{
+    display: flex;
+    font-size: 30px;
+}
+

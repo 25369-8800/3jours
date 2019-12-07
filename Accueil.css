@@ -1,8 +1,8 @@
-
+/* réalisation de la barre de navigation des menus*/
 nav{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     align-items: center;
     margin: auto;
 }
@@ -11,6 +11,7 @@ nav ul{
     justify-content: space-between;
     width: 20%;
     list-style: none;
+    
 }
 p{
     display: flex;
@@ -27,4 +28,68 @@ nav ol{
 ol{
     list-style: none;
 }
+/* texte et boutton centré sur l'image */
+.intro{
+    width: 55%;
+    margin-left: 500px;
+}
+h1{
+    font-size: 80px;
+    width: 100%;
+}
+.button{
+    display: flex;
+    margin-bottom: 150px;
+}
+/* Bdesign bouton et mise en place*/
+#graybutton {
+    display: flex;
+    padding: 1px;
+    width: 23%;
+    background-color:rgba(73, 72, 72, 0.514);
+}
+#graybutton p {
+    color: white;
+    width: 100%;
+    display: flex;
+}
+#graybutton a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#greenbutton {
+    display: flex;
+    padding: 1px;
+    width: 35%;
+    background-color:rgb(6, 180, 6);
+    margin-left: 10px;
+    width: 23%;
+}
+#greenbutton p {
+    color: white;
+    width: 100%;
+    display: flex;
+}
+#greenbutton a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.fa-play{
+    margin-top: -5px;
+}
+#phraseintro{
+    width: 50%;
+    margin: auto;
+}
+#phraseintro p{
+    width: 25%;
+    margin: auto;
+    font-size: 25px;
+    color:rgba(121, 121, 121, 0.452)
+}
+
 

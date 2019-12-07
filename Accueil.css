@@ -78,9 +78,11 @@ h1{
     font-size: 20px;
     margin-left: 10px;
 }
+/* mise en place de l'icône*/
 .fa-play{
     margin-top: -5px;
 }
+/* phrase en bas du header*/
 #phraseintro{
     width: 50%;
     margin: auto;

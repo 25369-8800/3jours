@@ -240,6 +240,68 @@ section #ordi{
     font-size: 20px;
     margin: auto;
     text-align: center;
+    margin-bottom: 200px;
+}
+section#icone{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+#power{
+    width: 25%;
+}
+#power h1{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+#power i{
+    margin-left: 170px;
+    padding: 30px;
+    border-radius: 100px;
+    text-align: center;
+    color: rgb(6, 180, 6);
+    background-color: rgba(25, 255, 25, 0.7);
+}
+#power p{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+#background{
+    background-color: rgba(6, 180, 6, 0.70);
+}
+section#icone2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+#power{
+    width: 25%;
+}
+#power h1{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+#power i{
+    margin-left: 170px;
+    padding: 30px;
+    border-radius: 100px;
+    text-align: center;
+    color: rgb(6, 180, 6);
+    background-color: rgba(25, 255, 25, 0.7);
+}
+#power p{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+#background{
+    background-color: rgba(6, 180, 6, 0.70);
 }
 
 

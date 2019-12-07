@@ -1,4 +1,9 @@
 /* réalisation de la barre de navigation des menus*/
+header{
+    background-image: url(./Assets/Images/business-woman-2071342.jpg);
+    background-size: 100%;
+    background-position: 0% 25%;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -11,7 +16,11 @@ nav ul{
     justify-content: space-between;
     width: 20%;
     list-style: none;
-    
+}
+nav ul a{
+    text-decoration: none;
+    color: rgba(54, 54, 54, 0.63);
+    font-size: 20px;
 }
 p{
     display: flex;
@@ -24,6 +33,11 @@ nav ol{
     justify-content: space-around;
     width: 17%;
     align-items: center;
+}
+nav ol a{
+    text-decoration: none;
+    color: rgba(54, 54, 54, 0.63);
+    font-size: 20px;
 }
 ol{
     list-style: none;
@@ -43,10 +57,12 @@ h1{
 }
 /* Bdesign bouton et mise en place*/
 #graybutton {
+    border-radius: 5px;
     display: flex;
     padding: 1px;
     width: 23%;
     background-color:rgba(73, 72, 72, 0.514);
+    border: solid 2px white;
 }
 #graybutton p {
     color: white;
@@ -59,7 +75,12 @@ h1{
     font-size: 20px;
     margin-left: 10px;
 }
+/* hover du bouton gris */
+#graybutton:hover{
+    background-color: rgb(73, 72, 72);
+}
 #greenbutton {
+    border-radius: 5px;
     display: flex;
     padding: 1px;
     width: 35%;
@@ -78,6 +99,10 @@ h1{
     font-size: 20px;
     margin-left: 10px;
 }
+/* hover du bouton vert*/
+#greenbutton:hover{
+    background-color: rgb(5, 167, 5);
+}
 /* mise en place de l'icône*/
 .fa-play{
     margin-top: -5px;
@@ -90,8 +115,23 @@ h1{
 #phraseintro p{
     width: 25%;
     margin: auto;
-    font-size: 25px;
-    color:rgba(121, 121, 121, 0.452)
+    font-size: 20px;
+    color: rgba(54, 54, 54, 0.63);
+    padding-block-end: 30px;
 }
+#fleche{
+    margin:auto;
+    width: 30px;
+    background: rgb(6, 180, 6);
+    border-radius: 50px;
+}
+#fleche p{
+    margin: 1px;
+    width: 30px;
+    font-size: 25px;
+    color:white;
+    transform: rotate(90deg);
+}
+
 
 

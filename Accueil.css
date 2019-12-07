@@ -148,6 +148,25 @@ h1{
     width: 50%;
     margin: auto;
     text-align: center;
+    font-size: 20px;
+}
+#image{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+}
+#image img{
+    margin: 15px;
+}
+#image2{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+}
+#image2 img{
+    margin: 15px;
 }
 
 

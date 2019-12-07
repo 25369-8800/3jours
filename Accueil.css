@@ -154,8 +154,9 @@ h1{
 #image{
     display: flex;
     margin-top: 50px;
+    background-color: rgb(243, 243, 243);
 }
-/* Première ligne*/
+/* Première ligne galerie d'image*/
 #i1{
     position: relative;
     display: flex;
@@ -165,6 +166,9 @@ h1{
 }
 #i1 figure{
     width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px gray;
 }
 #i1 figure figcaption h1{
     text-align: center;
@@ -178,11 +182,14 @@ h1{
 }
 #i1 figure img{
     width: 100%;
+    border-radius: 5px;
 }
 #image2{
     display: flex;
+    background-color:rgb(243, 243, 243);
+    margin-bottom: 50px;
 }
-/* Deuxième ligne*/
+/* Deuxième ligne galerie d'image*/
 #i2{
     position: relative;
     display: flex;
@@ -192,6 +199,9 @@ h1{
 }
 #i2 figure{
     width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px gray;
 }
 #i2 figure figcaption h1{
     text-align: center;
@@ -205,7 +215,31 @@ h1{
 }
 #i2 figure img{
     width: 100%;
-    height: auto;
+    border-radius: 5px;
+}
+/* mise en place de la section responsive*/
+section #ordi{
+    width: 100%;
+}
+#ordi img{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* texte de la section ordi*/
+#ordi h1{
+    width: 50%;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#ordi p{
+    width: 50%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
 }
 
 

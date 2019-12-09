@@ -93,6 +93,8 @@ h1{
     color: white;
     width: 100%;
     display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 #greenbutton a {
     color: white;
@@ -106,7 +108,8 @@ h1{
 }
 /* mise en place de l'icône*/
 .fa-play{
-    margin-top: -5px;
+    margin-top: 2px;
+    margin-left: 80px;
 }
 /* phrase en bas du header*/
 #phraseintro{
@@ -144,6 +147,7 @@ h1{
     width: 25%;
     margin:auto;
     text-align: center;
+    color: black;
 }
 .entete p{
     width: 50%;
@@ -175,6 +179,7 @@ h1{
     text-align: center;
     width: 100%;
     font-size: 20px;
+    color: black;
 }
 #i1 figure figcaption p{
     text-align: center;
@@ -208,6 +213,7 @@ h1{
     text-align: center;
     width: 100%;
     font-size: 20px;
+    color:black;
 }
 #i2 figure figcaption p{
     text-align: center;
@@ -235,6 +241,7 @@ section #ordi{
     margin: auto;
     text-align: center;
     margin-bottom: 25px;
+    color:black;
 }
 #ordi p{
     width: 50%;
@@ -289,6 +296,7 @@ section#icone2{
     text-align: center;
     width: 100%;
     font-size: 30px;
+    color: black;
 }
 #power i{
     margin-left: 170px;
@@ -307,14 +315,18 @@ section#icone2{
 .desordi{
     display: flex;
     margin-top: 100px;
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 100px;
 }
 #listordi{
     width: 70%;
     margin-left: 350px;
+    margin-top: 20px;
 }
 #listordi h1{
     color: black;
     margin-top: -10px;
+    font-size: 50px;
 }
 #checkettext{
     display: flex;
@@ -335,6 +347,7 @@ section#icone2{
     margin-top: 50px;
     margin-left: 50px;
     width: 20%;
+    margin-bottom: 20px;
 }
 #buttonmore a {
     color: white;
@@ -354,6 +367,17 @@ section#icone2{
 #ordilist{
     width: 30%;
     display: flex;
+}
+#jointext h1{
+    color: black;
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#jointext p {
+    text-align: center;
 }
 
 

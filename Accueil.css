@@ -369,6 +369,9 @@ section#icone2{
     display: flex;
 }
 /* section join et photo ronde*/
+#join{
+    margin-bottom: 35px;
+}
 #jointext{
     margin-bottom: 30px;
 }
@@ -393,6 +396,68 @@ section#icone2{
     width: 7%;
     border-radius: 50%;
   }
+  /* Section subscribe*/
+  #subscribe{
+      background-color: rgb(243, 243, 243);
+  }
+  #subscribebar{
+    position: relative;
+    display: flex;
+    width: 60%;
+    margin: auto;
+  }
+  #subscribebar h2{
+      display: flex;
+      justify-content: space-around;
+      margin-right: 300px;
+      margin-top: 30px;
+      font-size: 30px;
+  }
+  #courriel{
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    margin-top: 20px; 
+  }
+  /* Icone avion */
+  .fa-telegram-plane{
+      position: absolute;
+      margin-top: 27px;
+      margin-left: 670px;
+      font-size: 5px;
+      color: rgb(73, 72, 72);
+      width: 3%;
+      display: flex;
+      justify-content: space-around;
+  }
+  /* Bouton send */
+  #buttonsend {
+    border-radius: 5px;
+    display: flex;
+    padding: 1px;
+    background-color:rgb(6, 180, 6);
+    margin-left: 3px;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    margin-top: 18px;
+}
+#buttonsend a {
+    color: white;
+    text-decoration: none;
+}
+#buttonsend p {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 12px;
+}
+/* hover du bouton vert*/
+#buttonsend:hover{
+    background-color: rgb(5, 167, 5);
+  
 
 
 

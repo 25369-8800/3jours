@@ -22,11 +22,11 @@ nav ul a{
     color: rgba(54, 54, 54, 0.63);
     font-size: 20px;
 }
-#Logo p{
+#logo p{
     display: flex;
     justify-content: center;
-    width: 10%;
-    font-size: 30px;
+    width: 100%;
+    font-size: 50px;
 }
 nav ol{
     display: flex;
@@ -41,6 +41,10 @@ nav ol a{
 }
 ol{
     list-style: none;
+}
+#signin li a{
+    width: 100%;
+    border: solid 10px red 5px;
 }
 /* texte et boutton centré sur l'image */
 .intro{
@@ -117,20 +121,21 @@ h1{
     margin: auto;
 }
 #phraseintro p{
-    width: 25%;
+    width: 100%;
     margin: auto;
     font-size: 20px;
     color: rgba(54, 54, 54, 0.63);
     padding-block-end: 30px;
+    text-align: center;
 }
 #fleche{
-    margin:auto;
     width: 30px;
     background: rgb(6, 180, 6);
     border-radius: 50px;
+    text-align: center;
+    margin: auto;
 }
 #fleche p{
-    margin: 1px;
     width: 30px;
     font-size: 25px;
     color:white;

@@ -22,7 +22,7 @@ nav ul a{
     color: rgba(54, 54, 54, 0.63);
     font-size: 20px;
 }
-p{
+#Logo p{
     display: flex;
     justify-content: center;
     width: 10%;
@@ -48,6 +48,7 @@ ol{
     margin-left: 500px;
 }
 h1{
+    color: white;
     font-size: 80px;
     width: 100%;
 }
@@ -303,19 +304,37 @@ section#icone2{
     font-size: 20px;
 }
 /* section liste et ordi*/
+.desordi{
+    display: flex;
+    margin-top: 100px;
+}
+#listordi{
+    width: 70%;
+    margin-left: 350px;
+}
+#listordi h1{
+    color: black;
+    margin-top: -10px;
+}
+#checkettext{
+    display: flex;
+}
 #check{
     width: 3%;
+    color: rgb(6, 180, 6);
+}
+#textcheck {
+    margin-left: 25px;
 }
 /* Bouton fin de liste */
 #buttonmore {
     border-radius: 5px;
     display: flex;
     padding: 1px;
-    width: 35%;
     background-color:rgb(6, 180, 6);
     margin-top: 50px;
-    margin-left: 380px;
-    width: 23%;
+    margin-left: 50px;
+    width: 20%;
 }
 #buttonmore a {
     color: white;
@@ -331,6 +350,10 @@ section#icone2{
 /* hover du bouton vert*/
 #buttonmore:hover{
     background-color: rgb(5, 167, 5);
+}
+#ordilist{
+    width: 30%;
+    display: flex;
 }
 
 

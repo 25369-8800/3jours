@@ -368,6 +368,10 @@ section#icone2{
     width: 30%;
     display: flex;
 }
+/* section join et photo ronde*/
+#jointext{
+    margin-bottom: 30px;
+}
 #jointext h1{
     color: black;
     font-size: 50px;
@@ -379,7 +383,16 @@ section#icone2{
 #jointext p {
     text-align: center;
 }
-
+#joinphoto{
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#joinphoto img {
+    width: 7%;
+    border-radius: 50%;
+  }
 
 
 

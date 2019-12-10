@@ -91,7 +91,7 @@ main{
 /* section photo de pont*/
 section#pont{
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: auto;
     justify-content: center;
 }
@@ -100,7 +100,7 @@ section#pont{
     text-align: center;
 }
 #pont img{
-    margin-left: 110px;
+    margin-left: 120px;
     width: 70%;
 }
 #textpont{
@@ -109,4 +109,290 @@ section#pont{
 #textpont h1{
     width: 65%;
     font-size: 30px;
+}
+/* section des images */
+#i1{
+    position: relative;
+    display: flex;
+    width: 60%;
+    margin-left: 565px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#i1 figure figcaption h1{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 1px;
+}
+#i1 figure figcaption h3{
+    margin-top: 1px;
+    text-align: center;
+    font-size: 15px;
+}
+#i1 figure figcaption p{
+    width: 75%;
+    font-size: 20px;
+    margin: auto;
+}
+#i1 figure img{
+    width: 70%;
+    margin-left: 35px;
+}
+/* Icone section team */
+#iconefigure{
+    display: flex;
+    width: 40%;
+    font-size: 25px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/* section photo de ferme*/
+section#farm{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(6, 180, 6);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#lamb{
+    width: 30%;
+    text-align: center;
+}
+#lamb img{
+    margin-left: 110px;
+    width: 70%;
+}
+#textfarm{
+    width: 30%;
+    color: white;
+}
+#textfarm h1{
+    width: 65%;
+    font-size: 30px;
+    color: white;
+}
+/* section join et photo ronde*/
+#join{
+    margin-bottom: 35px;
+}
+#jointext{
+    margin-bottom: 30px;
+}
+#jointext h1{
+    color: black;
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#jointext p {
+    text-align: center;
+}
+#joinphoto{
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#joinphoto img {
+    width: 7%;
+    border-radius: 50%;
+  }
+  /* Section subscribe*/
+  #subscribe{
+      background-color: rgb(243, 243, 243);
+  }
+  #subscribebar{
+    position: relative;
+    display: flex;
+    width: 60%;
+    margin: auto;
+  }
+  #subscribebar h2{
+      display: flex;
+      justify-content: space-around;
+      margin-right: 300px;
+      margin-top: 30px;
+      font-size: 30px;
+  }
+  #courriel{
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    margin-top: 20px; 
+  }
+  /* Icone avion */
+  .fa-telegram-plane{
+      position: absolute;
+      margin-top: 27px;
+      margin-left: 670px;
+      font-size: 5px;
+      color: rgb(73, 72, 72);
+      width: 3%;
+      display: flex;
+      justify-content: space-around;
+  }
+  /* Bouton send */
+  #buttonsend {
+    border-radius: 5px;
+    display: flex;
+    padding: 1px;
+    background-color:rgb(6, 180, 6);
+    margin-left: 3px;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    margin-top: 18px;
+}
+#buttonsend a {
+    color: white;
+    text-decoration: none;
+}
+#buttonsend p {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 12px;
+}
+/* hover du bouton vert*/
+#buttonsend:hover{
+    background-color: rgb(5, 167, 5);
+}
+/* Footer */
+/* Utile pour centrer*/
+#piedpage1{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+/* Colonne 1*/
+#c1{
+    width: 25%;
+    margin-top: 150px;
+}
+#c1 h3{
+    width: 25%;
+    margin-left: 162px;
+    font-size: 22px;
+}
+#c1 nav{
+    width: 100%;
+}
+#c1 nav ul{
+    width: 35%;
+    margin: auto;
+}
+#c1 ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#c1 ul li{
+    padding: 10px;
+}
+/* Colonne 2*/
+#c2{
+    width: 25%;
+    margin-top: 150px;
+}
+#c2 h3{
+    width: 25%;
+    margin-left: 129px;
+    font-size: 22px;
+}
+#c2 nav{
+    width: 100%;
+}
+#c2 nav ul{
+    width: 50%;
+    margin: auto;
+}
+#c2 ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#c2 ul li{
+    padding: 10px;
+}
+/* Colonne 3*/
+#c3{
+    width: 25%;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#c3 h3{
+    width: 25%;
+    margin-left: 82px;
+    font-size: 22px;
+}
+#c3 nav{
+    width: 100%;
+}
+#c3 nav ul{
+    width: 70%;
+    margin: auto;
+}
+#c3 ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#c3 ul li{
+    padding: 5px;
+}
+/* Colonne 4*/
+#c4{
+    width: 25%;
+    margin-top: 150px;
+    margin-left: -120px;
+}
+#c4 h3{
+    width: 25%;
+    margin-left: 108px;
+    font-size: 22px;
+}
+#c4 nav{
+    width: 100%;
+    display: flex;
+}
+#c4 nav ul{
+    width: 40%;
+    margin-left: 70px;
+}
+#c4 ul {
+    display: flex;
+    width: 100%;
+}
+#c4 ul li{
+    padding: 2px;
+}
+.fa-instagram{
+    margin-left: 15px;
+}
+section#piedpage2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+    border-top: solid rgb(243, 243, 243) 3px;
+}
+#copyright{
+    width: 25%;
+    margin-left: 490px;
+    padding: 25px;
+}
+#design{
+    width: 25%;
+    margin-right: 275px;
+    padding: 25px;
 }

@@ -463,3 +463,55 @@ section#icone2{
 #buttonsend:hover{
     background-color: rgb(5, 167, 5);
 }
+/* Footer */
+footer{
+    display: flex;
+}
+#c1{
+    width: 25%;
+    margin-top: 150px;
+}
+#c1 h3{
+    width: 25%;
+    margin-left: 162px;
+    font-size: 22px;
+}
+#c1 nav{
+    width: 100%;
+}
+#c1 nav ul{
+    width: 35%;
+    margin: auto;
+}
+#c1 ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#c1 ul li{
+    padding: 10px;
+}
+#c2{
+    width: 25%;
+    margin-top: 150px;
+}
+#c2 h3{
+    width: 25%;
+    margin-left: 132px;
+    font-size: 22px;
+}
+#c2 nav{
+    width: 100%;
+}
+#c2 nav ul{
+    width: 50%;
+    margin: auto;
+}
+#c2 ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#c2 ul li{
+    padding: 10px;
+}

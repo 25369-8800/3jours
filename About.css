@@ -44,7 +44,6 @@ nav ol a{
 ol{
     list-style: none;
 }
-/* texte et boutton centré sur l'image */
 .intro{
     width: 55%;
     margin: auto;
@@ -54,6 +53,7 @@ ol{
     color: white;
     text-align: center;
     margin-bottom: 70px;
+    font-size: 25px;
 }
 .intro h1{
     color: white;

@@ -371,6 +371,10 @@ section#icone2{
     width: 30%;
     margin-top: 40px;
 }
+#ordilist img{
+    clip-path: inset( 0px 400px 0px 0px);
+    margin-left: 190px;
+}
 /* section join et photo ronde*/
 #join{
     margin-bottom: 35px;

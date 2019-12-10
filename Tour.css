@@ -186,8 +186,8 @@ section#icone2{
     margin-bottom: 100px;
 }
 #listordi{
-    width: 70%;
-    margin-left: 350px;
+    width: 100%;
+    margin-left: 310px;
     margin-top: 20px;
 }
 #listordi h1{
@@ -199,6 +199,8 @@ section#icone2{
     display: flex;
 }
 #check{
+    margin-top: 15px;
+    margin-right: 30px;
     width: 3%;
     color: rgb(6, 180, 6);
 }
@@ -212,7 +214,7 @@ section#icone2{
     padding: 1px;
     background-color:rgb(6, 180, 6);
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 85px;
     width: 20%;
     margin-bottom: 20px;
 }
@@ -232,10 +234,14 @@ section#icone2{
     background-color: rgb(5, 167, 5);
 }
 #ordilist{
-    width: 30%;
-    display: flex;
+    width: 45%;
+    margin-top: 40px;
 }
-/* section liste et ordi2*/
+#ordilist img{
+    clip-path: inset( 0px 400px 0px 0px);
+    margin-left: 540px;
+}
+/* section liste et ordi*/
 .desordi2{
     display: flex;
     margin-top: 100px;
@@ -243,7 +249,7 @@ section#icone2{
     margin-bottom: 100px;
 }
 #listordi2{
-    width: 70%;
+    width: 100%;
     margin-left: 350px;
     margin-top: 20px;
 }
@@ -256,6 +262,8 @@ section#icone2{
     display: flex;
 }
 #check2{
+    margin-top: 15px;
+    margin-right: 30px;
     width: 3%;
     color: rgb(6, 180, 6);
 }
@@ -269,7 +277,7 @@ section#icone2{
     padding: 1px;
     background-color:rgb(6, 180, 6);
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 85px;
     width: 20%;
     margin-bottom: 20px;
 }
@@ -289,6 +297,10 @@ section#icone2{
     background-color: rgb(5, 167, 5);
 }
 #ordilist2{
-    width: 30%;
-    display: flex;
+    width: 45%;
+    margin-top: 40px;
+}
+#ordilist2 img{
+    clip-path: inset( 0px 0px 0px 400px );
+    margin-left: -410px;
 }

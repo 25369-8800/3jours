@@ -369,7 +369,7 @@ section#icone2{
 }
 #ordilist{
     width: 30%;
-    display: flex;
+    margin-top: 40px;
 }
 /* section join et photo ronde*/
 #join{

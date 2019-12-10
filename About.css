@@ -1,5 +1,17 @@
+@keyframes header{
+    from {
+        opacity: 0%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
 /* réalisation de la barre de navigation des menus*/
 header{
+    animation: header 2s steps(4);
     background-image: url(./Assets/Images/livre.jpg);
     box-shadow: inset 3000px 0 0 0 rgba(122, 120, 120, 0.733);
     background-size: 100%;
@@ -103,10 +115,10 @@ section#pont{
     margin-left: 120px;
     width: 70%;
 }
-#textpont{
+.textpont{
     width: 30%;
 }
-#textpont h1{
+.textpont h1{
     width: 65%;
     font-size: 30px;
 }

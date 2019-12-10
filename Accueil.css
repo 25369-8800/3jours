@@ -464,9 +464,13 @@ section#icone2{
     background-color: rgb(5, 167, 5);
 }
 /* Footer */
-footer{
+/* Utile pour centrer*/
+#piedpage1{
+    width: 70%;
     display: flex;
+    margin: auto;
 }
+/* Colonne 1*/
 #c1{
     width: 25%;
     margin-top: 150px;
@@ -491,13 +495,14 @@ footer{
 #c1 ul li{
     padding: 10px;
 }
+/* Colonne 2*/
 #c2{
     width: 25%;
     margin-top: 150px;
 }
 #c2 h3{
     width: 25%;
-    margin-left: 132px;
+    margin-left: 129px;
     font-size: 22px;
 }
 #c2 nav{
@@ -514,4 +519,76 @@ footer{
 }
 #c2 ul li{
     padding: 10px;
+}
+/* Colonne 3*/
+#c3{
+    width: 25%;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#c3 h3{
+    width: 25%;
+    margin-left: 82px;
+    font-size: 22px;
+}
+#c3 nav{
+    width: 100%;
+}
+#c3 nav ul{
+    width: 70%;
+    margin: auto;
+}
+#c3 ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#c3 ul li{
+    padding: 5px;
+}
+/* Colonne 4*/
+#c4{
+    width: 25%;
+    margin-top: 150px;
+    margin-left: -120px;
+}
+#c4 h3{
+    width: 25%;
+    margin-left: 108px;
+    font-size: 22px;
+}
+#c4 nav{
+    width: 100%;
+    display: flex;
+}
+#c4 nav ul{
+    width: 40%;
+    margin-left: 70px;
+}
+#c4 ul {
+    display: flex;
+    width: 100%;
+}
+#c4 ul li{
+    padding: 2px;
+}
+.fa-instagram{
+    margin-left: 15px;
+}
+section#piedpage2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 70px;
+    border-top: solid rgb(243, 243, 243) 3px;
+}
+#copyright{
+    width: 25%;
+    margin-left: 490px;
+    padding: 25px;
+}
+#design{
+    width: 25%;
+    margin-right: 275px;
+    padding: 25px;
 }

@@ -1,0 +1,87 @@
+/* réalisation de la barre de navigation des menus*/
+header{
+    background-image: url(./Assets/Images/livre.jpg);
+    box-shadow: inset 3000px 0 0 0 rgba(122, 120, 120, 0.733);
+    background-size: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgba(54, 54, 54, 0.63);
+    font-size: 20px;
+}
+#logo a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+}
+nav ol{
+    display: flex;
+    justify-content: space-around;
+    width: 17%;
+    align-items: center;
+}
+nav ol a{
+    text-decoration: none;
+    color: rgba(54, 54, 54, 0.63);
+    font-size: 20px;
+}
+ol{
+    list-style: none;
+}
+/* texte et boutton centré sur l'image */
+.intro{
+    width: 55%;
+    margin: auto;
+    padding: 50px;
+}
+.intro p{
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.intro h1{
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}
+#phraseintro p{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    color: rgba(54, 54, 54, 0.63);
+    padding-block-end: 30px;
+    text-align: center;
+}
+#fleche{
+    width: 30px;
+    background: rgb(6, 180, 6);
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+}
+#fleche p{
+    width: 30px;
+    font-size: 25px;
+    color:white;
+    transform: rotate(90deg);
+}
+#lienactif a{
+    color: white;
+}

@@ -22,11 +22,13 @@ nav ul a{
     color: rgba(54, 54, 54, 0.63);
     font-size: 20px;
 }
-#logo p{
+#logo a{
+    text-decoration: none;
+    color: white;
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 50px;
+    font-size: 30px;
 }
 nav ol{
     display: flex;
@@ -42,10 +44,6 @@ nav ol a{
 ol{
     list-style: none;
 }
-#signin li a{
-    width: 100%;
-    border: solid 10px red 5px;
-}
 /* texte et boutton centré sur l'image */
 .intro{
     width: 55%;
@@ -60,7 +58,7 @@ h1{
     display: flex;
     margin-bottom: 150px;
 }
-/* Bdesign bouton et mise en place*/
+/* design bouton et mise en place*/
 #graybutton {
     border-radius: 5px;
     display: flex;

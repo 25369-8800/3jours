@@ -1,9 +1,9 @@
 /* réalisation de la barre de navigation des menus*/
 header{
-    background-image: url(./Assets/Images/Building.jpg);
-    box-shadow: inset 3000px 0 0 0 rgba(122, 120, 120, 0.719);
+    animation: header 2s steps(4);
+    background-image: url(./Assets/Images/livre.jpg);
+    box-shadow: inset 3000px 0 0 0 rgba(122, 120, 120, 0.733);
     background-size: 100%;
-    background-position: 0% 20%;
 }
 nav{
     display: flex;
@@ -66,7 +66,7 @@ ol{
     width: 50%;
     margin: auto;
     font-size: 20px;
-    color: rgba(185, 185, 185, 0.986);
+    color: rgba(54, 54, 54, 0.63);
     text-align: center;
 }
 #fleche{
@@ -89,204 +89,58 @@ ol{
 main{
     margin-top: 50px;
 }
-/* mise en place de la section responsive*/
-section #ordi{
-    width: 100%;
+/* Mise en place de la card */
+#prix{
+    width: 70%;
     margin: auto;
-    margin-left: 20px;
 }
-#ordi img{
-    display: flex;
-    width: 40%;
-    margin: auto;
-    margin-bottom: 50px;
-}
-/* texte de la section ordi*/
-#ordi h1{
-    width: 50%;
-    font-size: 50px;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 25px;
-    color:black;
-}
-#ordi p{
-    width: 50%;
-    font-size: 20px;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 100px;
-}
-/* ligne d'icone 1 */
-section#icone{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: space-around;
-    margin-bottom: 50px;
-}
-#power{
-    width: 25%;
-}
-#power h1{
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-}
-#power i{
-    margin-left: 170px;
-    padding: 30px;
-    border-radius: 100px;
-    text-align: center;
-    color: rgb(6, 180, 6);
-    background-color: rgba(25, 255, 25, 0.7);
-}
-#power p{
-    text-align: center;
-    width: 100%;
-    font-size: 20px;
-}
-#background{
-    background-color: rgba(6, 180, 6, 0.70);
-}
-/* ligne d'icone 2 */
-section#icone2{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: space-around;
-}
-#power{
-    width: 25%;
-}
-#power h1{
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-    color: black;
-}
-#power i{
-    margin-left: 170px;
-    padding: 30px;
-    border-radius: 100px;
-    text-align: center;
-    color: rgb(6, 180, 6);
-    background-color: rgba(25, 255, 25, 0.7);
-}
-#power p{
-    text-align: center;
-    width: 100%;
-    font-size: 20px;
-}
-/* section liste et ordi*/
-.desordi{
-    display: flex;
-    margin-top: 100px;
-    background-color: rgb(243, 243, 243);
-    margin-bottom: 100px;
-}
-#listordi{
-    width: 100%;
-    margin-left: 310px;
-    margin-top: 20px;
-}
-#listordi h1{
-    color: black;
-    margin-top: -10px;
-    font-size: 50px;
-}
-#checkettext{
-    display: flex;
-}
-#check{
-    margin-top: 15px;
-    margin-right: 30px;
-    width: 3%;
-    color: rgb(6, 180, 6);
-}
-#textcheck {
-    margin-left: 25px;
-}
-/* Bouton fin de liste */
-#buttonmore {
-    border-radius: 5px;
-    display: flex;
-    padding: 1px;
-    background-color:rgb(6, 180, 6);
-    margin-top: 50px;
-    margin-left: 85px;
+#cardprix {
+    background-color: white;
+    border: solid 2px gray;
     width: 20%;
-    margin-bottom: 20px;
-}
-#buttonmore a {
-    color: white;
-    text-decoration: none;
-}
-#buttonmore p {
-    color: white;
-    text-decoration: none;
+    padding: 5px;
     text-align: center;
-    font-size: 20px;
-    width: 100%;
+    border-radius: 5px;
+    float: left;
+    margin: 30px;
 }
-/* hover du bouton vert*/
-#buttonmore:hover{
-    background-color: rgb(5, 167, 5);
+#cardprix h3{
+    text-align: center;
+    font-size: 25px;
 }
-#ordilist{
-    width: 45%;
-    margin-top: 40px;
+/* Mise en place d'un exposant*/
+#exposant{
+    text-align: center;
+    font-size: 25px;
 }
-#ordilist img{
-    clip-path: inset( 0px 400px 0px 0px);
-    margin-left: 540px;
+/* ligne grise */
+hr{
+        margin: auto;
+        width: 90%;
+        height: 2px;
+        background-color: gray;
+        border: none; /*on supprime le style par défaut*/
 }
-/* section liste et ordi*/
-.desordi2{
-    display: flex;
-    margin-top: 100px;
-    background-color: rgb(243, 243, 243);
-    margin-bottom: 100px;
+#nbrimage{
+    text-align: center;
+    font-size: 25px;
 }
-#listordi2{
-    width: 100%;
-    margin-left: 350px;
-    margin-top: 20px;
-}
-#listordi2 h1{
-    color: black;
-    margin-top: -10px;
-    font-size: 50px;
-}
-#checkettext2{
-    display: flex;
-}
-#check2{
-    margin-top: 15px;
-    margin-right: 30px;
-    width: 3%;
-    color: rgb(6, 180, 6);
-}
-#textcheck2 {
-    margin-left: 25px;
-}
-/* Bouton fin de liste */
+/* Bouton de la carte prix */
 #buttonmore2 {
     border-radius: 5px;
     display: flex;
     padding: 1px;
-    background-color:rgb(6, 180, 6);
-    margin-top: 50px;
-    margin-left: 85px;
-    width: 20%;
-    margin-bottom: 20px;
+    background-color:white;
+    border: solid 1px gray;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 22px;
 }
 #buttonmore2 a {
-    color: white;
+    color: gray;
     text-decoration: none;
 }
 #buttonmore2 p {
-    color: white;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
@@ -294,22 +148,99 @@ section#icone2{
 }
 /* hover du bouton vert*/
 #buttonmore2:hover{
+    background-color: rgb(207, 207, 207);
+}
+#cardprix2 {
+    background-color: white;
+    border: solid 2px rgb(6, 180, 6);
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    margin: 30px;
+}
+#cardprix2 h3{
+    text-align: center;
+    font-size: 25px;
+}
+/* Mise en place d'un exposant*/
+#exposant2{
+    text-align: center;
+    font-size: 25px;
+}
+/* ligne grise */
+hr2{
+        margin: auto;
+        width: 90%;
+        height: 2px;
+        background-color: gray;
+        border: none; /*on supprime le style par défaut*/
+}
+#nbrimage2{
+    text-align: center;
+    font-size: 25px;
+}
+/* Bouton2 de la carte prix */
+#buttonmore3 {
+    border-radius: 5px;
+    display: flex;
+    padding: 1px;
+    background-color: rgb(6, 180, 6);
+    border: solid 1px gray;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 22px;
+}
+#buttonmore3 a {
+    color: white;
+    text-decoration: none;
+}
+#buttonmore3 p {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+/* hover du bouton vert*/
+#buttonmore3:hover{
     background-color: rgb(5, 167, 5);
 }
-#ordilist2{
-    width: 45%;
-    margin-top: 40px;
+/* Design Faq */
+section#faq{
+    display: flex;
+    width: 100%;
 }
-#ordilist2 img{
-    clip-path: inset( 0px 0px 0px 400px );
-    margin-left: -410px;
+#faqtitre{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+#faqtitre h3{
+    text-align: center;
+}
+#faqtitre h1{
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+#faqtitre h2{
+    font-size: 30px;
+}
+#faqtitre p{
+    font-size: 20px;
+    padding-bottom: 25px;
 }
 /* section join et photo ronde*/
 #join{
     margin-bottom: 35px;
+    margin-top: 100px;
 }
 #jointext{
+    padding-top: 100px;
     margin-bottom: 30px;
+    border-top: solid 0.5px gray;
 }
 #jointext h1{
     color: black;
@@ -523,4 +454,3 @@ section#piedpage2{
     margin-right: 275px;
     padding: 25px;
 }
-
